@@ -12,12 +12,13 @@ body {
 }
 
 .container {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    background-image: linear-gradient(rgba(200, 204, 233, 0.404), rgba(0, 0, 0, 0.6));
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -32,7 +33,7 @@ body {
 
 #par {
     font-size: 1.5rem;
-    color: #333;
+    color: #080505;
     margin-bottom: 20px;
     font-weight: 600;
     line-height: 1.6;
